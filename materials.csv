@@ -1,0 +1,21 @@
+material_id,name,category,unit_cost,supplier_id
+1,Force Material,Metal,40.13,10
+2,Expert Material,Chemical,4.31,3
+3,Manager Material,Textile,22.67,7
+4,Trip Material,Plastic,10.42,3
+5,Firm Material,Plastic,8.06,8
+6,Tell Material,Plastic,16.8,1
+7,Coach Material,Textile,34.24,6
+8,Indicate Material,Plastic,36.09,7
+9,Hear Material,Textile,15.36,7
+10,Song Material,Textile,40.22,9
+11,Space Material,Plastic,4.19,3
+12,Man Material,Metal,7.25,6
+13,Best Material,Chemical,24.71,7
+14,Argue Material,Metal,23.1,9
+15,Success Material,Chemical,3.14,8
+16,Listen Material,Chemical,27.03,3
+17,Carry Material,Metal,14.53,2
+18,Relationship Material,Chemical,46.96,1
+19,Same Material,Textile,22.47,3
+20,Source Material,Textile,16.77,6
