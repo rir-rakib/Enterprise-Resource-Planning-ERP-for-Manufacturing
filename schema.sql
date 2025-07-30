@@ -57,9 +57,21 @@ CREATE TABLE shipments (
 );
 
 -- Foreign Keys
-ALTER TABLE materials ADD CONSTRAINT fk_material_supplier FOREIGN KEY (supplier_id) REFERENCES suppliers(supplier_id);
-ALTER TABLE production_orders ADD CONSTRAINT fk_order_employee FOREIGN KEY (employee_id) REFERENCES employees(employee_id);
-ALTER TABLE production_order_details ADD CONSTRAINT fk_detail_order FOREIGN KEY (order_id) REFERENCES production_orders(order_id);
-ALTER TABLE production_order_details ADD CONSTRAINT fk_detail_material FOREIGN KEY (material_id) REFERENCES materials(material_id);
-ALTER TABLE inventory ADD CONSTRAINT fk_inventory_material FOREIGN KEY (material_id) REFERENCES materials(material_id);
-ALTER TABLE shipments ADD CONSTRAINT fk_shipment_order FOREIGN KEY (order_id) REFERENCES production_orders(order_id);
+ALTER TABLE materials ADD CONSTRAINT fk_material_supplier 
+FOREIGN KEY (supplier_id)
+REFERENCES suppliers(supplier_id);
+
+ALTER TABLE production_orders ADD CONSTRAINT fk_order_employee 
+FOREIGN KEY (employee_id) REFERENCES employees(employee_id);
+
+ALTER TABLE production_order_details ADD CONSTRAINT fk_detail_order 
+FOREIGN KEY (order_id) REFERENCES production_orders(order_id);
+
+ALTER TABLE production_order_details ADD CONSTRAINT fk_detail_material 
+FOREIGN KEY (material_id) REFERENCES materials(material_id);
+
+ALTER TABLE inventory ADD CONSTRAINT fk_inventory_material 
+FOREIGN KEY (material_id) REFERENCES materials(material_id);
+
+ALTER TABLE shipments ADD CONSTRAINT fk_shipment_order 
+FOREIGN KEY (order_id) REFERENCES production_orders(order_id);
