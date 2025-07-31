@@ -36,4 +36,4 @@ This is an advanced PostgreSQL database project simulating an ERP (Enterprise Re
 
 ---
 
-Crafted for real-world simulation and database analytics excellence.
+
